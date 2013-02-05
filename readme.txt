@@ -8,18 +8,17 @@ Stable tag: 1.0.7
 
 == Description ==
 
-HTML5 MP3 Radio FM MP3 Stream Player can grab “Now Playing Song Information” on player as StreamTitle for Shoutcast and Icecast Streams. 
+HTML5 MP3 Radio FM MP3 Stream Player can grab "Now Playing Song Information" on player as StreamTitle for Shoutcast and Icecast Streams. 
 
-HTML5 MP3 Radio FM MP3 Stream Player use  Radio streams directly from Shoutcast and Icecast Server and play in HTML5 <audio> element.
+HTML5 MP3 Radio FM MP3 Stream Player use  Radio streams directly from Shoutcast and Icecast Server and play in HTML5 &lt;audio&gt; element.
 
 Pro Shoutcast Icecast HTML5 Radio Player...
 
 * Self Hosted Plugin Files
-* Current Playing Song Title
 * Customize Skin, Color & Size of player
 * Embed & PopOut Option
 * List of all song for Shoutcast Server
-* Customize social link
+* Customize social share
 
 [HTML5 MP3 Radio FM MP3 Stream Player Buy Now](http://html5plus.svnlabs.com/shop/html5-mp3-radio-fm-stream/)
 
@@ -45,7 +44,9 @@ Shortcode for Page or Post
 
 == Frequently Asked Questions ==
 
-html5.svnlabs.com/faq/
+http://html5.svnlabs.com/faq/
+http://html5.svnlabs.com/faq/how-to-use-html5-radio-player-for-shoutcast-or-icecast/
+http://html5.svnlabs.com/faq/shoutcast-stream-not-working/
 
 == Screenshots ==
 
