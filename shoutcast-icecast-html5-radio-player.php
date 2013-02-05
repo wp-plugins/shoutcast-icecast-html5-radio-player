@@ -257,6 +257,23 @@ $iframe = '<iframe src="'.$pluginurl.'html5/html5'.$radiotype.'.php?radiolink='.
 
 <!-- Paypal etc.  -->
 
+<strong>Get Pro Version <a href="http://html5plus.svnlabs.com/shop/html5-mp3-radio-fm-stream/" target="_blank">HTML5 MP3 Radio FM MP3 Stream Player</a></strong>
+
+<br />
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=181968385196620";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-href="https://www.facebook.com/Html5Mp3Player" data-send="true" data-width="450" data-show-faces="true"></div>  
+
  </div>
 <?php		}
 	}
