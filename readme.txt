@@ -41,6 +41,10 @@ Shortcode for Page or Post
 [html5radio player="shoutcast" stream="http://your-server-ip:port" banner="http://your-domain.com/radio.jpg"]
 
 
+Connection Timed Out (110)
+Note: Please make sure shoutcast / icecast server port is open on your server firewall as outgoing port to read shoutcast / icecast current playing song information…
+
+
 == Frequently Asked Questions ==
 
 http://html5.svnlabs.com/faq/
