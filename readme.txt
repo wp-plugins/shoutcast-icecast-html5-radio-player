@@ -42,7 +42,7 @@ Shortcode for Page or Post
 
 
 Connection Timed Out (110)
-Note: Please make sure shoutcast / icecast server port is open on your server firewall as outgoing port to read shoutcast / icecast current playing song information…
+Note: Please make sure shoutcast / icecast server port is open on your server firewall as outgoing port to read shoutcast / icecast current playing song information.
 
 
 == Frequently Asked Questions ==
