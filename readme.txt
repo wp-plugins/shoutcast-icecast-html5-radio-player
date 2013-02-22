@@ -15,9 +15,8 @@ HTML5 MP3 Radio FM MP3 Stream Player use  Radio streams directly from Shoutcast 
 Pro Shoutcast Icecast HTML5 Radio Player...
 
 * Self Hosted Plugin Files
-* Customize Skin, Color & Size of player
-* Embed & PopOut Option
-* List of all song for Shoutcast Server
+* Customize Skin, Color & Size of player using CSS
+* Current playing song info for Shoutcast / Icecast Server
 * Customize social share
 
 [HTML5 MP3 Radio FM MP3 Stream Player Buy Now](http://html5plus.svnlabs.com/shop/html5-mp3-radio-fm-stream/)
