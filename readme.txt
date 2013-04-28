@@ -57,6 +57,8 @@ http://html5.svnlabs.com/faq/shoutcast-stream-not-working/
 
 2. HTML5 MP3 Radio FM MP3 Stream Player Settings
 
+== Support ==
+For support please visit http://html5plus.svnlabs.com/contact-us/support/
 
 == Changelog ==
 
