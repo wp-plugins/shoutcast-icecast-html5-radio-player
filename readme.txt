@@ -19,6 +19,9 @@ Pro Shoutcast Icecast HTML5 Radio Player...
 * Current playing song info for Shoutcast / Icecast Server
 * Customize social share
 
+
+[youtube http://www.youtube.com/watch?v=XPg7jc0ycNs&feature=youtu.be]
+
 [HTML5 MP3 Radio FM MP3 Stream Player Buy Now](http://html5plus.svnlabs.com/shop/html5-mp3-radio-fm-stream/)
 
 
