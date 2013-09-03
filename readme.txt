@@ -17,7 +17,8 @@ Pro Shoutcast Icecast HTML5 Radio Player...
 * Self Hosted Plugin Files
 * Customize Skin, Color & Size of player using CSS
 * Current playing song info for Shoutcast / Icecast Server
-* Customize social share
+* Customize social share (Twitter, Facebook, Google+)
+* Live Radio Listeners Count
 
 
 [youtube http://www.youtube.com/watch?v=XPg7jc0ycNs&feature=youtu.be]
@@ -28,7 +29,7 @@ Pro Shoutcast Icecast HTML5 Radio Player...
 = Features =
 
 * Setup and Configure Radio server and then stream it directly onto your wordpress website.
-* Facebook / Twitter Social Share 
+* Radio Artwork Image 
 * Volume Control
 
 == Installation ==
