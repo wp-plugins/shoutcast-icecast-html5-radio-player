@@ -142,7 +142,7 @@ if (!extension_loaded('curl') && !@dl(PHP_SHLIB_SUFFIX == 'so' ? 'curl.so' : 'ph
             
       <tr>
         <th scope="row" valign="top"><label for="radiolink">Radio Stream Link:</label></th>
-        <td><input type="text" name="radiolink" id="radiolink" class="regular-text" value="<?php echo $radiolink; ?>"/>(Use MP3 Stream, Don't include listen.pls in URL)</td>
+        <td><input type="text" name="radiolink" id="radiolink" class="regular-text" value="<?php echo $radiolink; ?>"/>(Use MP3 Stream i.e. http://174.127.x.y:8013/, Don't include listen.pls in URL)</td>
       </tr>
       
       <tr>

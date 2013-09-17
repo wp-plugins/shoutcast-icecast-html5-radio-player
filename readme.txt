@@ -41,6 +41,15 @@ Unzip "shoutcast-icecast-html5-radio-player.zip" and copy folder "shoutcast-icec
 Enter your Radio Server information then use shortcode.
 
 
+= How to add Radio Stream URL =
+
+Please use Radio MP3 Stream URL like http://your-radio-server-ip:port/
+
+i.e.  http://174.127.x.y:8013/ 
+
+Don't use PLS file http://yp.shoutcast.com/sbin/tunein-station.pls
+
+
 Shortcode for Page or Post
 
 [html5radio player="shoutcast" stream="http://your-server-ip:port" banner="http://your-domain.com/radio.jpg"]
