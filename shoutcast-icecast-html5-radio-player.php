@@ -240,7 +240,7 @@ if (!extension_loaded('curl') && !@dl(PHP_SHLIB_SUFFIX == 'so' ? 'curl.so' : 'ph
 
 <?php
 
-$pluginurl	=	plugin_dir_url( __FILE__ );
+$pluginurl	=	"http://html5radio.svnlabs.com/"; //plugin_dir_url( __FILE__ );
 
 
 $iframe = '<iframe src="'.$pluginurl.'html5/html5'.$radiotype.'.php?radiolink='.$radiolink.'&radiotype='.$radiotype.'&bcolor='.$bcolor.'&image='.$image.'&facebook='.$facebook.'&twitter='.$twitter.'&title='.$title.'&artist='.$artist.'" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" width="367" height="227"></iframe>';
