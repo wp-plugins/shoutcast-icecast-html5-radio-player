@@ -249,15 +249,16 @@ $iframe = '<iframe src="'.$pluginurl.'html5/html5'.$radiotype.'.php?radiolink='.
 ?>
 <br />
 
-<?php /*?><hr />
+<hr />
 
 <h3>Embed Anywhere</h3>
 
-<textarea cols="60" rows="10" onFocus="this.select();" style="border:1px dotted #343434" ><?php echo $iframe; ?></textarea><?php */?>
+<textarea cols="60" rows="10" onFocus="this.select();" style="border:1px dotted #343434" ><?php echo $iframe; ?></textarea>
 
-<!-- Paypal etc.  -->
+<!-- Paypal etc.  --><br />
 
-<strong>Get Pro Version <a href="http://html5plus.svnlabs.com/shop/html5-mp3-radio-fm-stream/" target="_blank">HTML5 MP3 Radio FM MP3 Stream Player</a></strong>
+
+<strong><a href="http://html5plus.svnlabs.com/shop/html5-mp3-radio-fm-stream/" target="_blank">HTML5 MP3 Radio FM MP3 Stream Player</a></strong>
 
 <br />
 
