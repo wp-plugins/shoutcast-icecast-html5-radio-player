@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 /*
 Plugin Name: Shoutcast Icecast HTML5 Radio Player 
 Plugin URI: http://html5plus.svnlabs.com/shop/html5-mp3-radio-fm-stream/
