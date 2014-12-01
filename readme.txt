@@ -3,7 +3,7 @@ Contributors: Sandeep Verma
 Tags: Shoutcast, Icecast, Music Player, MP3 Player, Audio FM Player, HTML5, Radio Player
 Requires at least: 2.0
 Tested up to: 4.0
-Stable tag: 1.0.7
+Stable tag: 2.0.5
 
 
 == Description ==

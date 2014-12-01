@@ -1,10 +1,15 @@
 <?php
-error_reporting(0);
+
+if ( ! defined( 'ABSPATH' ) ) {
+        exit;
+}
+
+error_reporting(E_ALL);
 /*
 Plugin Name: Shoutcast Icecast HTML5 Radio Player 
 Plugin URI: http://html5plus.svnlabs.com/shop/html5-mp3-radio-fm-stream/
 Description: HTML5 MP3 Radio FM MP3 Stream Player can grab "Now Playing Song Information" on player as StreamTitle for Shoutcast and Icecast Streams. 
-Version: 1.0.7
+Version: 2.0.5
 Author: Sandeep Verma
 Author URI: http://html5plus.svnlabs.com/shop/html5-mp3-radio-fm-stream/
 */ 
@@ -142,7 +147,12 @@ if ( ! class_exists( 'Shoutcast_Icecast_HTML5_Player' ) ) {
             
       <tr>
         <th scope="row" valign="top"><label for="radiolink">Radio Stream Link:</label></th>
-        <td><input type="text" name="radiolink" id="radiolink" class="regular-text" value="<?php echo $radiolink; ?>"/>(Use MP3 Stream i.e. http://174.127.x.y:8013/, Don't include listen.pls in URL)</td>
+        <td><input type="text" name="radiolink" id="radiolink" class="regular-text" value="<?php echo $radiolink; ?>"/>
+        <em>Note: Make sure you have valid MP3 Radio Stream, Don't include listen.pls in URL <br />
+
+Shoutcast V1 (http://shoutcast-server-ip:port/) <br />
+Shoutcast V2 (http://shoutcast-server-ip:port/streamname) <br />
+Icecast (http://icecast-server-ip:port/streamname)</em></td>
       </tr>
       
       <tr>
@@ -150,7 +160,8 @@ if ( ! class_exists( 'Shoutcast_Icecast_HTML5_Player' ) ) {
         
         <td>
         <select name="radiotype">
-        <option value="shoutcast" <?php if($radiotype=="shoutcast") echo ' selected="selected"'; ?>>Shoutcast</option>
+        <option value="shoutcast1" <?php if($radiotype=="shoutcast1") echo ' selected="selected"'; ?>>Shoutcast1</option>
+        <option value="shoutcast2" <?php if($radiotype=="shoutcast2") echo ' selected="selected"'; ?>>Shoutcast2</option>
         <option value="icecast" <?php if($radiotype=="icecast") echo ' selected="selected"'; ?>>Icecast</option>
         </select>
         </td>
@@ -242,6 +253,11 @@ if ( ! class_exists( 'Shoutcast_Icecast_HTML5_Player' ) ) {
 
 $pluginurl	=	plugin_dir_url( __FILE__ );
 
+if($radiotype=="icecast")
+  $radiotype="icecast";
+else
+  $radiotype="shoutcast";   
+
 
 $iframe = '<iframe src="http://html5radio.svnlabs.com/html5'.$radiotype.'.php?radiolink='.$radiolink.'&radiotype='.$radiotype.'&bcolor='.$bcolor.'&image='.$image.'&facebook='.$facebook.'&twitter='.$twitter.'&title='.$title.'&artist='.$artist.'" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" width="367" height="227"></iframe>';
 
@@ -251,7 +267,7 @@ $iframe = '<iframe src="http://html5radio.svnlabs.com/html5'.$radiotype.'.php?ra
 
 <hr />
 
-<h3>Embed Anywhere</h3>
+<h3>Embed Anywhere &nbsp;&nbsp;  [<a href="http://www.radioforge.com/" target="_blank">Get More Radio Players from RadioForge.com</a>]</h3>
 
 <textarea cols="60" rows="10" onFocus="this.select();" style="border:1px dotted #343434" ><?php echo $iframe; ?></textarea>
 
@@ -319,6 +335,11 @@ extract( shortcode_atts( array(
 
 
 echo '<br />';
+
+if($radiotype=="icecast")
+  $radiotype="icecast";
+else
+  $radiotype="shoutcast";
 
 
 /*echo '<iframe src="'.$pluginurl.'html5/html5'.$radiotype.'.php?radiotype='.$radiotype.'&radiolink='.$radiolink.'&rand='.rand().'&bcolor='.$bcolor.'&image='.$image.'&facebook='.$facebook.'&twitter='.$twitter.'&title='.$title.'&artist='.$artist.'" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" width="367" height="227"></iframe>';*/
