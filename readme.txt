@@ -12,7 +12,7 @@ HTML5 MP3 Radio FM MP3 Stream Player can grab "Now Playing Song Information" on 
 
 HTML5 MP3 Radio FM MP3 Stream Player use  Radio streams directly from Shoutcast and Icecast Server and play in HTML5 &lt;audio&gt; element.
 
-Pro Shoutcast Icecast HTML5 Radio Player...
+= Pro Shoutcast Icecast HTML5 Radio Player... = 
 
 * Self Hosted Plugin Files
 * Customize Skin, Color & Size of player using CSS
