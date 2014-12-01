@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) {
         exit;
 }
 
-error_reporting(E_ALL);
+error_reporting(0);
 /*
 Plugin Name: Shoutcast Icecast HTML5 Radio Player 
 Plugin URI: http://html5plus.svnlabs.com/shop/html5-mp3-radio-fm-stream/
@@ -372,6 +372,24 @@ function  shoutcast_icecast_html5_player_scripts_method() {
 }    
  
 add_action('wp_enqueue_scripts', 'shoutcast_icecast_html5_player_scripts_method');
+
+
+$plugin = plugin_basename(__FILE__);
+
+add_filter("plugin_action_links_{$plugin}", 'upgrade_to_pro_html5_radio_player');
+
+
+function upgrade_to_pro_html5_radio_player($links) { 
+
+	if (function_exists('is_plugin_active') && !is_plugin_active('shoutcast-icecast-html5-radio-playlist/list.php')) {
+
+		$links[] = '<a href="http://html5plus.svnlabs.com/shop/html5-mp3-radio-fm-stream/" target="_blank">' . __("Go Pro", "metaslider") . '</a>'; 
+
+	}
+
+	return $links; 
+
+}
 
 
 ?>
